@@ -1,0 +1,65 @@
+/* Shared compact journey. Homepage styling stays in style.css. */
+.direct-contacts{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;padding:8px 0}.direct-contacts a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+#contact-error{color:#963e26}#contact-value:focus{background:#fffdf8}#contact-help{margin:6px 0;line-height:1.4}
+.pp-internal h1,.pp-internal h2,.pp-internal h3{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;letter-spacing:-.035em!important;font-weight:750!important}
+.pp-internal h1 em,.pp-internal h2 em,.pp-internal h3 em{font-style:normal!important;font-weight:inherit!important}
+body[data-page="questionario"] .quiz-heading h1{font:750 34px/1.08 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important}
+body[data-page="questionario"] .show-result>h2{font-size:32px;line-height:1.12}
+.support-heading{padding:20px 18px 0}.support-heading h3,.interest-body>h3{font-size:23px!important;line-height:1.15;margin:9px 0 12px}
+.support-benefits{list-style:none;padding:0;margin:0 0 19px;font-size:14px;line-height:1.45}.support-benefits li{position:relative;padding-left:23px;margin:11px 0}.support-benefits li:before{content:'✓';position:absolute;left:0;color:#a17442;font-weight:800}
+.support-heading+.interest-body{border-top:1px solid #cfdac7;margin:0 18px;padding:15px 0}.interest-body>p{font-size:13px;line-height:1.5}
+.compact-details{border-top:1px solid #dedfd2;padding:15px 0;margin:10px 0;color:#54685b;font-size:14px}
+.compact-details>summary{cursor:pointer;font-weight:650;color:#244d39;min-height:30px}
+.compact-details .result{box-shadow:none}
+.interest-card{background:#e8eee2;border:1px solid #cedac7;border-radius:16px;margin:18px 0;color:#173e30}
+.interest-card>summary{padding:18px;cursor:pointer;font:700 22px/1.15 Georgia,serif;letter-spacing:-.025em}
+.interest-card>summary span{display:block;font:13px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:8px 0 0;letter-spacing:0;color:#58715c}
+.interest-body{padding:0 18px 16px;font-size:14px}.interest-body>p{margin-top:0}
+.interest-body fieldset{margin:12px 0;padding:0;border:0}.interest-body legend{font-weight:650;margin-bottom:10px}
+.contact-channels{display:flex;gap:10px}.contact-channels button{flex:1;min-height:46px;border-radius:99px;border:1px solid #a4b7a0;background:#fffdf7;color:#173e30;font-size:15px}.contact-channels button[aria-pressed="true"]{background:#174b38;color:#fffdf7;border-color:#174b38}
+#contact-preview label{display:block;font-size:13px;margin:12px 0 5px}#contact-value{width:100%;font:16px -apple-system,sans-serif;padding:13px;border:1px solid #b9c5b2;border-radius:10px;background:#f5f5ef;color:#52634d}#contact-preview .btn{width:100%;margin-top:12px}
+body[data-page="questionario"] .show-result .result{padding:14px 16px;margin:10px 0;background:#f2f4eb}
+body[data-page="questionario"] .show-result .result h3{font:bold 22px/1.15 Georgia,serif;margin:0 0 6px}
+body[data-page="questionario"] .show-result .result p{font-size:14px;line-height:1.5;margin:0}
+body[data-page="questionario"] .show-result>h2{margin:10px 0 17px;font-size:34px}
+.result-warning{font-size:13px;line-height:1.5;border-left:3px solid #ad7d47;padding:9px 12px;background:#f6eddf;color:#6e5431}
+.result-guide,.guide-next a{font-size:14px;color:#174b38;text-decoration:underline;text-underline-offset:4px}
+.path-note{border-left:3px solid #b08551;padding:10px 16px;margin:22px 0;font-size:14px;line-height:1.6;color:#52634f}
+.compact-guide .guide-contents{margin-top:25px}.compact-guide .guide-contents h2{margin:0 0 16px;font-size:32px}
+.compact-guide .box,.compact-how .box{padding:20px}.compact-guide .box h3,.compact-how .box h3{font:bold 24px/1.12 Georgia,serif;margin:9px 0}.compact-guide .box p,.compact-how .box p{margin:0;font-size:14px;line-height:1.5}
+.compact-guide .guide-resource{margin:0}.compact-guide .guide-resource-copy h2{font-size:36px;margin:12px 0}.compact-guide .guide-resource-copy>p{font-size:16px}.compact-guide .guide-preview{display:block;margin-top:12px}
+.compact-guide .guide-sources{margin-top:15px}.compact-guide .guide-sources h2{font-size:26px}
+.guide-next{font-size:14px;line-height:1.6}.compact-how{max-width:850px!important}
+@media(max-width:550px){
+body[data-page="guida"] .subhero{padding-bottom:19px}body[data-page="guida"] .subhero h1{font-size:36px;margin:10px 0 13px}body[data-page="guida"] .subhero .lead{font-size:14px;line-height:1.45}
+.compact-guide .guide-resource{grid-template-columns:1fr 92px;gap:12px;padding:18px 15px;align-items:center}.compact-guide .guide-resource-copy h2{font-size:25px}.compact-guide .guide-resource-copy>p{font-size:13px;line-height:1.5}.compact-guide .guide-cover{width:88px;min-height:136px;padding:10px 7px;align-self:start;margin-top:20px}.compact-guide .guide-cover strong{font-size:13px}.compact-guide .guide-cover small{font-size:7px}.compact-guide .guide-cover p{font-size:8px}.compact-guide .guide-cover i{margin:9px 0}.compact-guide .guide-resource .btn{font-size:12px;padding:12px 13px;min-height:46px;line-height:1.25;white-space:normal}.compact-guide .guide-preview{font-size:12px}
+.compact-guide .guide-grid{grid-template-columns:1fr 1fr;gap:9px}.compact-guide .box{padding:13px 11px}.compact-guide .box h3{font-size:20px}.compact-guide .box p{font-size:12px}.compact-guide .guide-contents h2{font-size:28px}
+.interest-card>summary{font-size:22px}.interest-card>summary span{font-size:12px}
+body[data-page="questionario"] .quiz-heading{padding:10px 0 12px}body[data-page="questionario"] .quiz-heading .breadcrumb{margin-bottom:9px}body[data-page="questionario"] .quiz-panel h2{font-size:26px}body[data-page="questionario"] .choice{padding:10px 12px;min-height:48px;line-height:1.3}body[data-page="questionario"] .choices{gap:8px;margin:15px 0}body[data-page="questionario"] .quiz-controls{margin-top:17px}body[data-page="questionario"] .quiz-controls .btn{font-size:13px;padding:12px 18px}
+}
+@media(max-width:360px){.compact-guide .guide-resource{grid-template-columns:1fr}.compact-guide .guide-cover{display:none}}
+@media print{.interest-card{display:none!important}.compact-details>summary{font-weight:bold}}
+
+/* Compact result: remove the completed questionnaire introduction. */
+body.result-view .quiz-heading h1,body.result-view .quiz-heading>.wrap>p,body.result-view .quiz-reassurance,body.result-view .quiz-disclaimer{display:none}
+body[data-page="questionario"].result-view .quiz-heading{padding:10px 0 0}
+body.result-view .quiz-heading .breadcrumb{margin-bottom:12px}
+body[data-page="questionario"] .show-result{padding:20px 18px}
+body[data-page="questionario"] .show-result>.result-title{font:750 27px/1.12 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;letter-spacing:-.035em;margin:9px 0 12px}
+.show-result>.result-first{font-size:15px;line-height:1.5;margin:0 0 12px;color:#415b4b}
+.show-result>.result-later{font-size:13px;line-height:1.45;margin:12px 0;color:#526a5a}
+.show-result .interest-card{margin:16px 0 10px;border-radius:14px}
+.show-result .support-heading{padding:15px 15px 0}
+.show-result .support-heading h3{font-size:23px!important;margin:6px 0 7px}
+.show-result .support-heading>p{font-size:14px;line-height:1.45;margin:0 0 12px}
+.show-result .support-heading+.interest-body{border-top:0;margin:0;padding:0 15px 10px}
+.show-result .interest-body>.btn{width:100%;min-height:48px;padding:12px;font-size:14px}
+.show-result .interest-body>.micro{font-size:11px;line-height:1.4;margin:9px 0}
+.show-result .interest-body>.compact-details{padding:8px 0 0;margin:0;font-size:12px}
+.show-result .compact-details>summary{min-height:0}
+.show-result>.result-deeper{padding:11px 0;margin:0 0 10px;font-size:13px}
+.show-result>.result-deeper p{margin:9px 0;line-height:1.5}
+.show-result>.result-limit{font-size:11px;line-height:1.4;margin:8px 0}
+@media(max-width:360px){body[data-page="questionario"] .show-result>.result-title{font-size:25px!important}}
+
+.trial-explained{padding:18px;background:#eef2e8;border-radius:16px;margin:20px 0}.trial-explained h2{font-size:24px!important;margin:0 0 12px}.trial-explained p{font-size:14px;line-height:1.5}.pp-menu .menu-trial{font-weight:750;color:#143f31}.pp-trial-note{font-size:13px;line-height:1.45;max-width:490px;color:#f3efdf;margin:12px 0 23px}.pp-actions .home-btn.secondary{font-size:16px;min-height:44px;padding-top:10px;padding-bottom:10px}.show-result .result-deeper h2{font-size:21px!important}.show-result>.interest-card{margin-top:12px}@media(max-width:550px){.pp-trial-note{font-size:14px;max-width:340px}}
