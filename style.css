@@ -143,19 +143,19 @@ body:not(.pp-home) .subhero :is(.lead,.service-promise){color:#f4f4eb;max-width:
   body:not(.pp-home) .subhero :is(h1,h1 em,.lead,.kicker,.breadcrumb,.breadcrumb a,.service-promise){color:#173d34!important}
 }
 
-/* Guida: la stessa tipografia dei titoli della home, senza corsivo. */
+/* Guida e tabella: stesso carattere della pagina Il nostro servizio. */
 body[data-page="guida"] main :is(h1,h2,h3),
 body[data-page="tabella-alcolemia"] main :is(h1,h2,h3),
 body[data-page="guida"] .instant-download strong{
-  font-family:Georgia,"Times New Roman",serif!important;
-  font-weight:700!important;
+  font-family:var(--pp-heading)!important;
+  font-weight:750!important;
   font-style:normal!important;
-  letter-spacing:-.04em!important;
+  letter-spacing:-.035em!important;
 }
 body[data-page="guida"] main :is(h1,h2,h3) em,
 body[data-page="tabella-alcolemia"] main :is(h1,h2,h3) em{
   font-family:inherit!important;
-  font-weight:700!important;
+  font-weight:750!important;
   font-style:normal!important;
 }
 body[data-page="tabella-alcolemia"] .subhero h1{font-size:48px;line-height:1.08;margin:13px 0 18px}
