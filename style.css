@@ -145,14 +145,23 @@ body:not(.pp-home) .subhero :is(.lead,.service-promise){color:#f4f4eb;max-width:
 
 /* Guida: la stessa tipografia dei titoli della home, senza corsivo. */
 body[data-page="guida"] main :is(h1,h2,h3),
+body[data-page="tabella-alcolemia"] main :is(h1,h2,h3),
 body[data-page="guida"] .instant-download strong{
   font-family:Georgia,"Times New Roman",serif!important;
   font-weight:700!important;
   font-style:normal!important;
   letter-spacing:-.04em!important;
 }
-body[data-page="guida"] main :is(h1,h2,h3) em{
+body[data-page="guida"] main :is(h1,h2,h3) em,
+body[data-page="tabella-alcolemia"] main :is(h1,h2,h3) em{
   font-family:inherit!important;
   font-weight:700!important;
   font-style:normal!important;
+}
+body[data-page="tabella-alcolemia"] .subhero h1{font-size:48px;line-height:1.08;margin:13px 0 18px}
+body[data-page="tabella-alcolemia"] main .section{padding:24px 0 40px}
+body[data-page="tabella-alcolemia"] main .section h2{font-size:30px;line-height:1.15;margin:0 0 18px}
+@media(max-width:550px){
+  body[data-page="tabella-alcolemia"] .subhero h1{font-size:34px;line-height:1.1}
+  body[data-page="tabella-alcolemia"] main .section h2{font-size:26px;line-height:1.15}
 }
